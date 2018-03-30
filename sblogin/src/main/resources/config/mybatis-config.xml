@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <settings>
+        <!-- 输出日志 -->
+        <setting name="logImpl" value="Log4J2"/>
+
+        <!-- 映射下划线与驼峰 -->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+
+    <typeAliases>
+        <package name="sblogin.model"/>
+    </typeAliases>
+
+    <!--拦截器配置-->
+    <!--<plugins>
+        <plugin interceptor="com.autohome.clues.terminal.env.interceptor.SqlCostInterceptor" />
+    </plugins>-->
+
+</configuration>
