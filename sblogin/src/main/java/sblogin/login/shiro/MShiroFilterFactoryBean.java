@@ -37,8 +37,6 @@ public class MShiroFilterFactoryBean extends CasFilter {
             try {
                 UserInfo user = new UserInfo(username);
                 if (user != null) {
-
-
                     session.setAttribute("USER_INFO", user);
                 } else {
                     subject.logout();
