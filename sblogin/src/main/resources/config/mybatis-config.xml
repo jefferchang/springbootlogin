@@ -14,9 +14,6 @@
         <package name="sblogin.model"/>
     </typeAliases>
 
-    <!--拦截器配置-->
-    <!--<plugins>
-        <plugin interceptor="com.autohome.clues.terminal.env.interceptor.SqlCostInterceptor" />
-    </plugins>-->
+
 
 </configuration>
